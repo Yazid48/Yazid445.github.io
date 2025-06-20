@@ -1,0 +1,14 @@
+{
+  "name": "wedding-invitation",
+  "version": "1.0.0",
+  "description": "Wedding invitation website for Muhammad Yazid & Warsiti",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.html dist/",
+    "dev": "python3 -m http.server 3000",
+    "start": "python3 -m http.server 3000"
+  },
+  "keywords": ["wedding", "invitation"],
+  "author": "Muhammad Yazid",
+  "license": "MIT"
+}
